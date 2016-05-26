@@ -23,7 +23,7 @@ Note: If you are behind a proxy, please make sure Android Studio is capable of d
 3. Select `File | Open`.
     ![File Open](https://s3-us-west-2.amazonaws.com/droidprint/images/fileopen.png)
 4. Select the `android-print-sdk-sample` directory. Then click the `Choose` button.
-    ![Load Sample App](https://s3-us-west-2.amazonaws.com/droidprint/images/PrintSDKSample1.png)
+    ![Load Sample App](https://s3-us-west-2.amazonaws.com/droidprint/images/PrintSDKSample2.png)
 5. Android Studio will alert you regarding any missing dependencies.  Click the appropriate link(s) to fix them.
     ![Build error](https://s3-us-west-2.amazonaws.com/droidprint/images/builderror.png)
 6. Run the app!
