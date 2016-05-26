@@ -83,11 +83,15 @@ In order to use the SDK and run the PrintSDKSample app, you need the following S
 * SDK Platform "21" (Lolipop)
 * SDK Platform "19" (Kitkat)
 
-The __DroidPrint__ library is not yet available publicly via maven or jcenter.
-There are two ways to install the library in your application. The recommended and much simpler way is to use the .aar file. The other option is to download the source code and compile it into your application.
+The __DroidPrint__ library is now available publicly via jcenter! Simply add the following line to your build.gradle file:
+```
+compile 'com.hp.mss:mobileprintsdk:v2.02.418'
+```
 
-1. [Install aar file](https://github.com/IPGPTP/DroidPrint/wiki/Install-With-.aar-File)
-2. [Install from source](https://github.com/IPGPTP/DroidPrint/wiki/Install-with-source-code)
+If you decide to download the source, you can still install using one of the following methods. The recommended and much simpler way is to use the .aar file. The other option is to compile the sdk into your application.
+
+1. [Install aar file](https://github.com/mobileprint/android-print-sdk/wiki/Install-With-.aar-File)
+2. [Install from source](https://github.com/mobileprint/android-print-sdk/wiki/Install-with-source-code)
 
 ## Basic Usage
 
