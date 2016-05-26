@@ -16,14 +16,14 @@ Note: If you are behind a proxy, please make sure Android Studio is capable of d
 
 1. Clone the repo (for this tutorial, we'll clone to our home folder)
 
-    `git clone git@github.com:mobileprint/android-print-sdk ~/DroidPrint`
+    `git clone git@github.com:mobileprint/android-print-sdk-sample ~/android-print-sdk-sample`
 
 2. Run Android Studio.
     ![Run Android Studio](https://s3-us-west-2.amazonaws.com/droidprint/images/androidstudio.png)
 3. Select `File | Open`.
     ![File Open](https://s3-us-west-2.amazonaws.com/droidprint/images/fileopen.png)
-4. Navigate to the `~/DroidPrint` directory and select the `PrintSDKSample` directory. Then click the `Choose` button.
-    ![Load Sample App](https://s3-us-west-2.amazonaws.com/droidprint/images/PrintSDKSample.png)
+4. Select the `android-print-sdk-sample` directory. Then click the `Choose` button.
+    ![Load Sample App](https://s3-us-west-2.amazonaws.com/droidprint/images/PrintSDKSample1.png)
 5. Android Studio will alert you regarding any missing dependencies.  Click the appropriate link(s) to fix them.
     ![Build error](https://s3-us-west-2.amazonaws.com/droidprint/images/builderror.png)
 6. Run the app!
