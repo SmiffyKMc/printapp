@@ -1,4 +1,4 @@
-# DroidPrint
+# Mobile Print SDK for Android
 
 A library to simplify development of printing in apps on Android, as well as providing an improved user experience.  This library serves as an interface to Google Cloud Print and various other Print Plugins and services.
 
@@ -16,7 +16,7 @@ Note: If you are behind a proxy, please make sure Android Studio is capable of d
 
 1. Clone the repo (for this tutorial, we'll clone to our home folder)
 
-    `git clone git@github.com:IPGPTP/DroidPrint ~/DroidPrint`
+    `git clone git@github.com:mobileprint/android-print-sdk ~/DroidPrint`
 
 2. Run Android Studio.
     ![Run Android Studio](https://s3-us-west-2.amazonaws.com/droidprint/images/androidstudio.png)
@@ -48,14 +48,14 @@ Note: If you are behind a proxy, please make sure Android Studio is capable of d
     + [Font](#font)
     + [Color](#color)
 - [Layout Options](#layout-options)
-- [Troubleshooting](https://github.com/IPGPTP/DroidPrint/wiki/Troubleshooting)
+- [Troubleshooting](https://github.com/mobileprint/android-print-sdk/wiki/Troubleshooting)
 - [Terms & Conditions](#terms-&-conditions)
 
 ## Overview
 
 ![Droid Print Stack](https://s3-us-west-2.amazonaws.com/droidprint/images/DroidPrintStack.png)
 
-DroidPrint provides an interface that simplifies developer interaction with Android Print functionality.  It also provides the following features currently not offered by Android:
+The Mobile Print SDK provides an interface that simplifies developer interaction with Android Print functionality.  It also provides the following features currently not offered by Android:
 
 ## Features
 
@@ -83,14 +83,14 @@ In order to use the SDK and run the PrintSDKSample app, you need the following S
 * SDK Platform "21" (Lolipop)
 * SDK Platform "19" (Kitkat)
 
-The __DroidPrint__ library is now available publicly via jcenter! Simply add the following line to your build.gradle file:
+The __Mobile Print SDK__ library is now available publicly via jcenter! Simply add the following line to your build.gradle file:
 ```
 compile 'com.hp.mss:mobileprintsdk:v2.02.418'
 ```
 
 ## Basic Usage
 
-In order to use the __DroidPrint__ library, you need to first obtain the URI to the bitmap you want to print.
+In order to use the __Mobile Print SDK__ library, you need to first obtain the URI to the bitmap you want to print.
 Once you have that, you are ready to invoke our print workflow.
 
 ### ImageAsset
@@ -247,7 +247,7 @@ startActivity(pluginIntent);
 
 ## KitKat Print Preview (Lollipop has its own print preview functionality)
 
-Whereas Lollipop offers print preview functionality, KitKat did not offer this feature. DroidPrint implements print preview on KitKat. You can customize the KitKat print preview to your liking by applying overrides to the library styles. Besides the font colors, the preview activity will match the theme you have set up for the rest of your application.
+Whereas Lollipop offers print preview functionality, KitKat did not offer this feature. The Mobile Print SDK implements print preview on KitKat. You can customize the KitKat print preview to your liking by applying overrides to the library styles. Besides the font colors, the preview activity will match the theme you have set up for the rest of your application.
 
 ### Font
 
@@ -328,4 +328,4 @@ if(Build.VERSION.SDK_INT >= 19) {
 ```
 
 ## Troubleshooting
-Please see our Wiki [Troubleshooting](https://github.com/IPGPTP/DroidPrint/wiki/Troubleshooting) page.
+Please see our Wiki [Troubleshooting](https://github.com/mobileprint/android-print-sdk/wiki/Troubleshooting) page.
