@@ -85,7 +85,7 @@ In order to use the SDK and run the PrintSDKSample app, you need the following S
 
 The __Mobile Print SDK__ library is now available publicly via jcenter! Simply add the following line to your build.gradle file:
 ```
-compile 'com.hp.mss:mobileprintsdk:v2.02.418'
+compile 'com.hp.mss:mobileprintsdk:v2.02.466'
 ```
 
 ## Basic Usage
