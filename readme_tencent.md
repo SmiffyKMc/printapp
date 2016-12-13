@@ -1,6 +1,6 @@
 # Mobile Print SDK for Android
 
-A library to simplify development of printing in apps on Android, as well as providing an improved user experience.  This library serves as an interface to Google Cloud Print and various other Print Plugins and services.
+A library to simplify development of printing in apps on Android, as well as providing an improved user experience.  This library serves as an interface to HP Print Service plugin if the user has not installed one.
 
 Note: Print functionality only exists starting in Android API versions 19 and beyond. Devices with OS older than KitKat will not be able to print using our library workflow. Please see [instructions](#integrate-with-legacy-app) if you want to compile the SDK with older version app, but only call Print functionality from Kitkat and above.
 
