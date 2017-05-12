@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DroidPrint.iml" filepath="$PROJECT_DIR$/DroidPrint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-print-sdk.iml" filepath="$PROJECT_DIR$/android-print-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobileprintsdk/mobileprintsdk.iml" filepath="$PROJECT_DIR$/mobileprintsdk/mobileprintsdk.iml" />
     </modules>
   </component>
